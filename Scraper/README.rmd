@@ -1,0 +1,12 @@
+This is a sanitised example of my code from previous employment for a web scraper engineered to be quickly adaptable and reusable. 
+The code reduced the length of time it took me to build scrapers by 50%-70%.
+
+The code is not a working example as it has been sanitised to avoid giving away any specific information in regards to it's function.
+
+The global folder holds base classes so that the functionality could be injected into multiple projects via 1 layer of inheritance and also enforce mandatory functions,
+should custom functionality for a particular project be required. The local folder holds code specific to a project.
+
+At runtime, the global and local folders were merged.
+
+All dependencies were wrapped in a global object in the main file in the global folder and passed into the scraper to make access
+to variables and functionality easier, and also to improve code readability.
